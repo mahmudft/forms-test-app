@@ -8,14 +8,7 @@ export default class Form extends Model {
     this.type = type;
     this.definition = definition;
   }
-  @attr("string") bookType
-  @attr("string") colorType
-  @attr("number") pageCount
-  @attr("string") contentPaper
-  @attr('string') weight
 
-
-  
 
   get serialized() {
     let { type, definition } = this;
