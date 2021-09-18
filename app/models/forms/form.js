@@ -15,6 +15,7 @@ export default class Form extends Model {
   @attr('string') weight
 
 
+  
 
   get serialized() {
     let { type, definition } = this;
